@@ -27,6 +27,11 @@ This project focuses on **JavaScript DOM manipulation**, **event handling**, and
 This project was created to practice front-end development concepts and to demonstrate interactive UI components using vanilla JavaScript.
 
 ---
+## 🚀 Live Demo
+Available via GitHub Pages:
+https://iamfrank-codes.github.io/On-Screen-Keyboard/
 
+
+---
 ## 👤 Author
 Kabelo Makhwiting 
