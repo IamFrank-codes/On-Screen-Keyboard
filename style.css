@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 10px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+textarea {
+  width: 95%;
+  max-width: 800px;
+  height: 100px;
+  font-size: 18px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.keyboard {
+  max-width: 900px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 6px;
+}
+
+.key {
+  flex: 1;
+  max-width: 60px;
+  height: 50px;
+  margin: 3px;
+  border-radius: 6px;
+  border: 1px solid #333;
+  background: #f2f2f2;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.key:active {
+  background: #ccc;
+}
+
+.key.wide {
+  flex: 2;
+}
+
+.key.extra-wide {
+  flex: 4;
+}
+
+/* 📱 Mobile responsiveness */
+@media (max-width: 600px) {
+  .key {
+    height: 45px;
+    font-size: 14px;
+  }
+}
